@@ -1,4 +1,4 @@
-#Apple 2014 Clone page
+# Apple 2014 Clone page
 Microverse Html &amp; Css project 2019
 The aim of the project was to create a page that imitates the Apple 2014 home page in purely HTML and CSS. It involves positioning elements using flex boxes, grids and floating elements.
 
