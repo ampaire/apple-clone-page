@@ -15,7 +15,7 @@ Built with HTML and CSS
     [Repository](https://github.com/ampaire/apple-clone-page.git)
 
 ### USING THE PROJECT
-Click on this [link] (https://raw.githack.com/ampaire/apple-clone-page/ft-development/index.html) to go to the live preview 
+Click on this [link](https://raw.githack.com/ampaire/apple-clone-page/ft-development/index.html) to go to the live preview 
 
 ### AUTHORS
 [AMPAIRE PHEMIA](https://github.com/ampaire)
