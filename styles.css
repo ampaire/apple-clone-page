@@ -1,36 +1,97 @@
 html {
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-  
-  body {
-    margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-  
-  h1, h2, h3,
-  h4, h5, h6 {
-    margin: 0 0 5px 0;
-  }
-  
-  ul, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  a {
-    text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+/* *******************************Navigation Bar ******************************** */
+.nav {
+  width: 980px;
+  height: 36px;
+  background-image: linear-gradient(#aaa, #444, #aaa);
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 1em;
+}
+.nav ul {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  padding: 5px 0;
+  flex: 1;
+  border-right: 1px solid #333;
+  text-align: center;
+  box-shadow: inset 1px 1px 1px #999;
+}
+
+.nav li:hover {
+  background-color: #666;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+.nav-highlight {
+  margin-top: -36px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#00000000 50%, #ffffff33 50%);
+}
+/* ********************************Main body************************************* */
+.main{
+    margin: 0 auto;
+    background-color: #333;
+    background-image: url("images/background.jpg");
+    background-position: 0% 100%;
+    width: 1440px;
+    height: 538px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
     color: white;
   }
