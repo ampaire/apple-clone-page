@@ -1,3 +1,4 @@
+/* **************************Defaults****************************** */
 html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -12,8 +13,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -38,18 +38,21 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+}
+a:hover{
+  color: #666;
 }
 /* *******************************Navigation Bar ******************************** */
-.nav {
+.nav-bar {
   width: 980px;
   height: 36px;
-  background-image: linear-gradient(#aaa, #444, #aaa);
-  border: 1px solid gray;
+  margin: 0 auto;
+  background-image: linear-gradient(rgb(160, 160, 160), #444, #aaa);
+  border: 1px solid rgb(110, 110, 110);
   border-radius: 6px;
   font-size: 1em;
 }
-.nav ul {
+.nav-bar ul {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -57,7 +60,7 @@ a {
   align-items: center;
 }
 
-.nav li {
+.nav-bar li {
   padding: 5px 0;
   flex: 1;
   border-right: 1px solid #333;
@@ -65,33 +68,83 @@ a {
   box-shadow: inset 1px 1px 1px #999;
 }
 
-.nav li:hover {
+.nav-bar li:hover {
   background-color: #666;
 }
-
-.nav li:last-child {
+.nav-bar a{
+  color: white;
+}
+.nav-bar li:last-child {
   border-right: none;
 }
 
-.nav-highlight {
-  margin-top: -36px;
+.nav-last {
+  margin-top: -40px;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(#00000000 50%, #ffffff33 50%);
 }
-/* ********************************Main body************************************* */
-.main{
-    margin: 0 auto;
-    background-color: #333;
-    background-image: url("images/background.jpg");
-    background-position: 0% 100%;
-    width: 1440px;
-    height: 538px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
+/* ********************************Main content************************************* */
+.main-content{
+  margin: 0 auto;
+  background-color: #333;
+  background-image: url("images/background.jpg");
+  background-position: 0% 100%;
+  width: 1440px;
+  height: 538px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+  }
+
+  .description{
+    padding: 0 200px; 
+  }
+  .description h1{
+    font-size: 50px; 
+    font-weight: 100;
+  }
+  .description h2{
+    margin: 20px 0;
+    font-weight: 100;    
+    font-size: 35px;
+  }
+  .description h3 a{
+    text-decoration: none;
     color: white;
   }
+  .promotions{
+    margin: 0 auto;
+    width: 1440px;
+  }
+  .promotions ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .promotions li{
+    overflow: hidden;
+  }
+  .footer {
+    margin: 10px auto;
+    width: 980px;
+    font-size: 10px;
+    color: gray;
+  }
+  footer a { 
+      color: #0b61b3;
+     }
+  .footer p {
+       margin-bottom: 6px; 
+    }
+  .upper-footer{
+       float: right; 
+    }
+  .upper-footer li { 
+    padding-right: 4px; 
+    border-right: 1px solid lightgray;
+  }
+  .upper-footer li:last-child { border-right: none; }  
