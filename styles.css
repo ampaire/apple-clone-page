@@ -13,6 +13,8 @@ html {
 
 body {
   margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -46,13 +48,12 @@ a:hover{
 .nav-bar {
   width: 980px;
   height: 36px;
-  margin: 0 auto;
-  background-image: linear-gradient(rgb(160, 160, 160), #444, #aaa);
-  border: 1px solid rgb(110, 110, 110);
+  background-image: linear-gradient(#aaa, #444, #aaa);
+  border: 1px solid gray;
   border-radius: 6px;
   font-size: 1em;
 }
-.nav-bar ul {
+.nav-bar .nav-items{
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -60,23 +61,23 @@ a:hover{
   align-items: center;
 }
 
-.nav-bar li {
-  padding: 5px 0;
+.nav-bar * {
+  padding: 9px 0;
   flex: 1;
+  overflow: hidden;
+  background-color: gray;
   border-right: 1px solid #333;
   text-align: center;
   box-shadow: inset 1px 1px 1px #999;
 }
 
-.nav-bar li:hover {
-  background-color: #666;
+.nav-items *:hover {
+  background-color:#333;
 }
-.nav-bar a{
+.nav-items input{
   color: white;
 }
-.nav-bar li:last-child {
-  border-right: none;
-}
+.nav-items *:last-child { border-right: none; }
 
 .nav-last {
   margin-top: -40px;
@@ -121,7 +122,8 @@ a:hover{
     margin: 0 auto;
     width: 1440px;
   }
-  .promotions ul{
+  .promotions .apple-images{
+    overflow: hidden;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
