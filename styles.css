@@ -169,11 +169,12 @@ footer a {
   float: right;
 }
 
-.upper-footer li {
+.upper-footer i{
+  font-style: normal;
   padding-right: 4px;
   border-right: 1px solid lightgray;
 }
 
-.upper-footer li:last-child {
+.upper-footer i:last-child {
   border-right: none;
 }
