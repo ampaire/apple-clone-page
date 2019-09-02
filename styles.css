@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   max-width: 100%;
-  max-height: 100%;
+  height: 100%;
   overflow-x: hidden;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -90,7 +90,7 @@ nav *:last-child{
   border-right: none;
 }
 .nav-last {
-  margin-top: -36px;
+  margin-top: -30px;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(#00000000 50%,#ffffff33 50%);
@@ -102,7 +102,7 @@ main {
   background-image: url("images/background.jpg");
   background-position: 0% 100%;
   width: 1440px;
-  height: 600px;
+  height: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
