@@ -14,8 +14,9 @@ html {
 body {
   margin: 0;
   max-width: 100%;
+  max-height: 100%;
   overflow-x: hidden;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1,
@@ -41,27 +42,23 @@ li {
 a {
   text-decoration: none;
 }
-a:hover{
+
+a:hover {
   color: #666;
 }
+
 /* *******************************Navigation Bar ******************************** */
-.nav-bar {
+header {
   width: 980px;
   height: 36px;
+  margin-top: 10%;
   background-image: linear-gradient(#aaa, #444, #aaa);
   border: 1px solid gray;
   border-radius: 6px;
   font-size: 1em;
 }
-.nav-bar .nav-items{
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-}
 
-.nav-bar * {
+header * {
   padding: 9px 0;
   flex: 1;
   overflow: hidden;
@@ -71,13 +68,25 @@ a:hover{
   box-shadow: inset 1px 1px 1px #999;
 }
 
-.nav-items *:hover {
-  background-color:#333;
+nav {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
-.nav-items input{
+
+nav *:hover {
+  background-color: #333;
+}
+
+nav input {
   color: white;
 }
-.nav-items *:last-child { border-right: none; }
+
+nav *:last-child {
+  border-right: none;
+}
 
 .nav-last {
   margin-top: -40px;
@@ -85,14 +94,15 @@ a:hover{
   height: 100%;
   background-image: linear-gradient(#00000000 50%, #ffffff33 50%);
 }
+
 /* ********************************Main content************************************* */
-.main-content{
+main {
   margin: 0 auto;
   background-color: #333;
   background-image: url("images/background.jpg");
   background-position: 0% 100%;
   width: 1440px;
-  height: 538px;
+  height: 600px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -100,53 +110,72 @@ a:hover{
   align-items: center;
   text-align: center;
   color: white;
-  }
+}
 
-  .description{
-    padding: 0 200px; 
-  }
-  .description h1{
-    font-size: 50px; 
-    font-weight: 100;
-  }
-  .description h2{
-    margin: 20px 0;
-    font-weight: 100;    
-    font-size: 35px;
-  }
-  .description h3 a{
-    text-decoration: none;
-    color: white;
-  }
-  .promotions{
-    margin: 0 auto;
-    width: 1440px;
-  }
-  .promotions .apple-images{
-    overflow: hidden;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
-  .promotions li{
-    overflow: hidden;
-  }
-  .footer {
-    margin: 10px auto;
-    width: 980px;
-    font-size: 10px;
-    color: gray;
-  }
-  footer a { 
-      color: #0b61b3;
-     }
-  .footer p {
-       margin-bottom: 6px; 
-    }
-  .upper-footer{
-       float: right; 
-    }
-  .upper-footer li { 
-    padding-right: 4px; 
-    border-right: 1px solid lightgray;
-  }
-  .upper-footer li:last-child { border-right: none; }  
+.description {
+  padding: 0 200px;
+}
+
+.description h1 {
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.description h2 {
+  margin: 20px 0;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.description h3 a {
+  text-decoration: none;
+  color: white;
+}
+
+.promotions {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.promotions .apple-images {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+}
+
+.apple-images * {
+  width: 350px;
+}
+
+.promotions li {
+  overflow: hidden;
+}
+
+/* ***********************************footer************************************ */
+.footer {
+  margin: 10px auto;
+  width: 980px;
+  font-size: 10px;
+  color: gray;
+}
+
+footer a {
+  color: #0b61b3;
+}
+
+.footer p {
+  margin-bottom: 6px;
+}
+
+.upper-footer {
+  float: right;
+}
+
+.upper-footer li {
+  padding-right: 4px;
+  border-right: 1px solid lightgray;
+}
+
+.upper-footer li:last-child {
+  border-right: none;
+}
