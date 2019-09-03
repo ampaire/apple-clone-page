@@ -49,7 +49,7 @@ a:hover {
 
 /* *******************************Navigation Bar ******************************** */
 nav{
-  margin-top: 9.8%;
+  margin-top: 5%;
   width: 980px;
   color: white;
   height: 36px;
@@ -65,8 +65,11 @@ nav .nav-first{
   display: flex;
   align-items: center;
 }
+.fa-apple, .fa-search{
+  padding: 9px;
+}
 nav i{
-  padding: 5px;
+  padding: 7px;
   width: 200px;
   color: white;
   border-right: 1px solid #333;
@@ -79,31 +82,33 @@ nav a{
 
 nav i:hover{
   color: white;
-  background-color: #666;
+  background-color: rgb(88, 88, 88);
 }
 nav a:hover{
   color: white;
-  background-color: #666;
+  background-color:  rgb(88, 88, 88);
 }
 
 nav *:last-child{
   border-right: none;
 }
 .nav-last {
-  margin-top: -30px;
+  margin-top: -35px;
   width: 100%;
   height: 100%;
   background-image: linear-gradient(#00000000 50%,#ffffff33 50%);
 }
 /* ********************************Main content************************************* */
 main {
+  
   margin: 0 auto;
   background-color: #333;
   background-image: url("images/background.jpg");
   background-position: 0% 100%;
-  width: 1440px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   height: auto;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -113,10 +118,11 @@ main {
 }
 
 .description {
-  padding: 0 200px;
+  padding: 0 240px;
 }
 
 .description h1 {
+  margin-top: 30px;
   font-size: 50px;
   font-weight: 50;
 }
@@ -126,7 +132,9 @@ main {
   font-weight: 100;
   font-size: 35px;
 }
-
+.description h3{
+  margin-bottom: 17%;
+}
 .description h3 a {
   text-decoration: none;
   color: white;
@@ -146,6 +154,9 @@ main {
 .apple-images * {
   overflow: hidden; 
   width: 350px;
+}
+.apple-images a img:hover{
+  opacity: 0.5;
 }
 
 
