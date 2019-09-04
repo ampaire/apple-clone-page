@@ -42,9 +42,11 @@ li {
 a {
   text-decoration: none;
 }
+
 footer a {
   color: #0b61b3;
 }
+
 nav a {
   width: 200px;
   color: white;
@@ -199,9 +201,11 @@ nav a:hover {
   color: white;
   background-color: rgb(88, 88, 88);
 }
+
 nav *:last-child {
   border-right: none;
 }
+
 nav i:hover {
   color: white;
   background-color: rgb(88, 88, 88);
