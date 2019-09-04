@@ -99,7 +99,6 @@ nav i {
   border-right: 1px solid #333;
 }
 
-
 .nav-last {
   margin-top: -35px;
   width: 100%;
@@ -194,13 +193,14 @@ footer p {
   border-right: 1px solid lightgray;
 }
 
-.upper-footer i:last-child {
-  border-right: none;
-}
-
-nav *:last-child {border-right: none;}
-
 nav i:hover {
   color: white;
   background-color: rgb(88, 88, 88);
 }
+
+.upper-footer i:last-child {
+  border-right: none;
+}
+
+nav *:last-child { border-right: none; }
+
