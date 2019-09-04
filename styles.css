@@ -198,9 +198,7 @@ footer p {
   border-right: none;
 }
 
-nav *:last-child {
-  border-right:  none;
-}
+nav *:last-child {border-right: none;}
 
 nav i:hover {
   color: white;
