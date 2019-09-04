@@ -42,6 +42,14 @@ li {
 a {
   text-decoration: none;
 }
+footer a {
+  color: #0b61b3;
+}
+nav a {
+  width: 200px;
+  color: white;
+  font-style: normal;
+}
 
 a:hover {
   color: #666;
@@ -72,6 +80,7 @@ nav .nav-first {
 }
 
 #search {
+  float: left;
   color: white;
   background-color: rgb(109, 108, 108);
   border-radius: 25px;
@@ -81,10 +90,6 @@ nav .nav-first {
   float: right;
 }
 
-#search {
-  float: left;
-}
-
 nav i {
   padding: 7px;
   width: 200px;
@@ -92,27 +97,16 @@ nav i {
   border-right: 1px solid #333;
 }
 
-nav a {
-  width: 200px;
-  color: white;
-  font-style: normal;
-}
-
-nav i:hover {
-  color: white;
-  background-color: rgb(88, 88, 88);
-}
-
 .nav-last {
   margin-top: -35px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#00000000 50%, #ffffff33 50%);
+  background-image: linear-gradient(#0000 50%, #fff3 50%);
 }
 
 /* ********************************Main content************************************* */
-main {
 
+main {
   margin: 0 auto;
   background-color: #333;
   background-image: url("images/background.jpg");
@@ -163,7 +157,7 @@ section {
 section .apple-images {
   overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(4, 0fr);
+  grid-template-columns: repeat(4, 0.1fr);
 }
 
 .apple-images * {
@@ -175,20 +169,12 @@ section .apple-images {
   opacity: 0.5;
 }
 
-nav *:last-child {
-  border-right: none;
-}
-
 /* ***********************************footer************************************ */
 footer {
   margin: 10px auto;
   width: 980px;
   font-size: 10px;
   color: gray;
-}
-
-footer a {
-  color: #0b61b3;
 }
 
 footer p {
@@ -210,6 +196,13 @@ footer p {
 }
 
 nav a:hover {
+  color: white;
+  background-color: rgb(88, 88, 88);
+}
+nav *:last-child {
+  border-right: none;
+}
+nav i:hover {
   color: white;
   background-color: rgb(88, 88, 88);
 }
