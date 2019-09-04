@@ -99,6 +99,11 @@ nav i {
   border-right: 1px solid #333;
 }
 
+nav i:hover {
+  color: white;
+  background-color: rgb(88, 88, 88);
+}
+
 .nav-last {
   margin-top: -35px;
   width: 100%;
@@ -162,7 +167,7 @@ section .apple-images {
   grid-template-columns: repeat(4, 0.1fr);
 }
 
-.apple-images a img{
+.apple-images a img {
   overflow: hidden;
   width: 350px;
 }
@@ -197,16 +202,9 @@ footer p {
   border-right: none;
 }
 
-nav a:hover {
-  color: white;
-  background-color: rgb(88, 88, 88);
-}
 
 nav *:last-child {
   border-right: none;
 }
 
-nav i:hover {
-  color: white;
-  background-color: rgb(88, 88, 88);
-}
+
