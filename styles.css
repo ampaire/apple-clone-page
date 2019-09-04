@@ -6,8 +6,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -48,7 +48,7 @@ a:hover {
 }
 
 /* *******************************Navigation Bar ******************************** */
-nav{
+nav {
   margin-top: 5%;
   width: 980px;
   color: white;
@@ -58,60 +58,61 @@ nav{
   border-radius: 6px;
   font-size: 1em;
 }
-nav .nav-first{
+
+nav .nav-first {
   width: 100%;
   height: 100%;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
-.fa-apple{
+
+.fa-apple {
   padding: 9px;
 }
-#search{
+
+#search {
   color: white;
   background-color: rgb(109, 108, 108);
   border-radius: 25px;
 }
-.fa-search{
+
+.fa-search {
   float: right;
 }
-#search{
+
+#search {
   float: left;
 }
-nav i{
+
+nav i {
   padding: 7px;
   width: 200px;
   color: white;
   border-right: 1px solid #333;
 }
-nav a{
+
+nav a {
   width: 200px;
   color: white;
   font-style: normal;
 }
 
-nav i:hover{
+nav i:hover {
   color: white;
   background-color: rgb(88, 88, 88);
 }
-nav a:hover{
-  color: white;
-  background-color:  rgb(88, 88, 88);
-}
 
-nav *:last-child{
-  border-right: none;
-}
 .nav-last {
   margin-top: -35px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(#00000000 50%,#ffffff33 50%);
+  background-image: linear-gradient(#00000000 50%, #ffffff33 50%);
 }
+
 /* ********************************Main content************************************* */
 main {
-  
+
   margin: 0 auto;
   background-color: #333;
   background-image: url("images/background.jpg");
@@ -147,12 +148,9 @@ main {
   text-decoration: none;
   color: white;
 }
-.description a h3{
-  margin-bottom: 17%;
-  text-decoration: none;
-  color: white;
-}
+
 .description a h3 {
+  margin-bottom: 17%;
   text-decoration: none;
   color: white;
 }
@@ -169,13 +167,17 @@ section .apple-images {
 }
 
 .apple-images * {
-  overflow: hidden; 
+  overflow: hidden;
   width: 350px;
 }
-.apple-images a img:hover{
+
+.apple-images a img:hover {
   opacity: 0.5;
 }
 
+nav *:last-child {
+  border-right: none;
+}
 
 /* ***********************************footer************************************ */
 footer {
@@ -197,7 +199,7 @@ footer p {
   float: right;
 }
 
-.upper-footer i{
+.upper-footer i {
   font-style: normal;
   padding-right: 4px;
   border-right: 1px solid lightgray;
@@ -205,4 +207,9 @@ footer p {
 
 .upper-footer i:last-child {
   border-right: none;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(88, 88, 88);
 }
