@@ -99,10 +99,6 @@ nav i {
   border-right: 1px solid #333;
 }
 
-nav i:hover {
-  color: white;
-  background-color: rgb(88, 88, 88);
-}
 
 .nav-last {
   margin-top: -35px;
@@ -203,5 +199,10 @@ footer p {
 }
 
 nav *:last-child {
-  border-right: none;
+  border-right:  none;
+}
+
+nav i:hover {
+  color: white;
+  background-color: rgb(88, 88, 88);
 }
