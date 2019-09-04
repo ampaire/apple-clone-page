@@ -65,8 +65,19 @@ nav .nav-first{
   display: flex;
   align-items: center;
 }
-.fa-apple, .fa-search{
+.fa-apple{
   padding: 9px;
+}
+#search{
+  color: white;
+  background-color: rgb(109, 108, 108);
+  border-radius: 25px;
+}
+.fa-search{
+  float: right;
+}
+#search{
+  float: left;
 }
 nav i{
   padding: 7px;
