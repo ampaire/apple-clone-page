@@ -162,7 +162,7 @@ section .apple-images {
   grid-template-columns: repeat(4, 0.1fr);
 }
 
-.apple-images * {
+.apple-images a img{
   overflow: hidden;
   width: 350px;
 }
