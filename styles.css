@@ -1,0 +1,206 @@
+/* **************************Defaults****************************** */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  max-width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer a {
+  color: #0b61b3;
+}
+
+nav a {
+  width: 200px;
+  color: white;
+  font-style: normal;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* *******************************Navigation Bar ******************************** */
+nav {
+  margin-top: 5%;
+  width: 980px;
+  color: white;
+  height: 36px;
+  background-image: linear-gradient(#aaa, #444, #aaa);
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+nav .nav-first {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.fa-apple {
+  padding: 9px;
+}
+
+#search {
+  float: left;
+  color: white;
+  background-color: rgb(109, 108, 108);
+  border-radius: 25px;
+}
+
+.fa-search {
+  float: right;
+}
+
+nav i {
+  padding: 7px;
+  width: 200px;
+  color: white;
+  border-right: 1px solid #333;
+}
+
+.nav-last {
+  margin-top: -35px;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#0000 50%, #fff3 50%);
+}
+
+/* ********************************Main content************************************* */
+
+main {
+  margin: 0 auto;
+  background-color: #333;
+  background-image: url("images/background.jpg");
+  background-position: 0% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.description {
+  padding: 0 240px;
+}
+
+.description a h1 {
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: 50;
+  text-decoration: none;
+  color: white;
+}
+
+.description a h2 {
+  margin: 20px 0;
+  font-weight: 100;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+}
+
+.description a h3 {
+  margin-bottom: 17%;
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+section .apple-images {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 0.1fr);
+}
+
+.apple-images a img {
+  overflow: hidden;
+  width: 350px;
+}
+
+.apple-images a img:hover {
+  opacity: 0.5;
+}
+
+/* ***********************************footer************************************ */
+footer {
+  margin: 10px auto;
+  width: 980px;
+  font-size: 10px;
+  color: gray;
+}
+
+footer p {
+  margin-bottom: 6px;
+}
+
+.upper-footer {
+  float: right;
+}
+
+.upper-footer i {
+  font-style: normal;
+  padding-right: 4px;
+  border-right: 1px solid lightgray;
+}
+
+nav i:hover {
+  color: white;
+  background-color: rgb(88, 88, 88);
+}
+
+.upper-footer i:last-child {
+  border-right: none;
+}
+
+nav *:last-child { border-right: none; }
+
