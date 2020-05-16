@@ -10,9 +10,10 @@ Imitates the [Apple 2014 homepage](http://archive.fo/UW4oR)
 Built with HTML and CSS
 
 
-### SETTING UP
-1. Clone this repository
-    [Repository](https://github.com/ampaire/apple-clone-page.git)
+### USING THE PROJECT
+1. Open the terminal and cd into your prefered directory.
+1. Run ``git clone https://github.com/ampaire/apple-clone-page.git`` to clone this project to your machine.
+2. You can open this project using the live server or just
 
 ### USING THE PROJECT
 Click on this [link](https://raw.githack.com/ampaire/apple-clone-page/master/index.html)  to go to the live preview 
