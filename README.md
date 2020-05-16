@@ -1,4 +1,4 @@
-# Apple 2014 Clone page
+# APPLE 2014 CLONE PAGE
 ![screenshot](/images/apple.png)
 Microverse HTML &amp; CSS solo project 2019.
 
@@ -20,8 +20,9 @@ Built with HTML and CSS
 3. Open this project in your favorite browser by running the index.html file in the browser
 
 
+### [DEMO LINK](https://raw.githack.com/ampaire/apple-clone-page/ft-development/index.html)
 
-
-### [Demo link](https://raw.githack.com/ampaire/apple-clone-page/ft-development/index.html)
-### AUTHORS
-[AMPAIRE PHEMIA](https://github.com/ampaire)
+#### AUTHORS
+- Github-> [@ampaire](https://github.com/ampaire)
+- Twitter-> [@AmpaPhem](https://twitter.com/AmpaPhem)
+- LinkedIn-> [Ampaire Phemia](https://www.linkedin.com/in/ampaire-phemia-b41619181)
