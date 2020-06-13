@@ -1,6 +1,6 @@
 # APPLE 2014 CLONE PAGE
 ![screenshot](/images/apple.png)
-Microverse HTML &amp; CSS solo project 2019.
+<h4 align = 'center'> Microverse HTML &amp; CSS solo project 2019.</h4>
 
 The aim of the project was to create a page that imitates the Apple 2014 home page in purely HTML and CSS.
 The objective was to show mastery in positioning elements using flex boxes, grids and floating elements using only HTML and CSS.
