@@ -1,4 +1,4 @@
-# APPLE 2014 CLONE PAGE
+ <h1 align="center"> APPLE 2014 CLONE PAGE</h1>
 ![screenshot](/images/apple.png)
 <h4 align = 'center'> Microverse HTML &amp; CSS solo project 2019.</h4>
 
