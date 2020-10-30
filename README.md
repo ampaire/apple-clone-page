@@ -4,7 +4,7 @@
  ![screenshot](images/apple.png)
  
 The aim of the project was to create a page that imitates the Apple 2014 home page in purely HTML and CSS.
-The objective was to show mastery in positioning elements using flex boxes, grids and floating elements using only HTML and CSS.
+The objective was to show mastery in positioning elements using flexboxes, grids and floating elements using only HTML and CSS.
 
 ### FEATURES
 Imitates the [Apple 2014 homepage](http://archive.fo/UW4oR)
