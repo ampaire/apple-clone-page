@@ -21,7 +21,7 @@ Built with HTML and CSS
 3. Open this project in your favorite browser by running the index.html file in the browser
 
 
-### [DEMO LINK](https://raw.githack.com/ampaire/apple-clone-page/ft-development/index.html)
+### [DEMO LINK](https://raw.githack.com/ampaire/apple-clone-page/master/index.html)
 
 #### AUTHORS
 - Github-> [@ampaire](https://github.com/ampaire)
